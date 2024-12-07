@@ -1,0 +1,15 @@
+The issue can be resolved using flexbox:
+
+```css
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping if necessary */
+}
+
+div {
+  width: 50%;
+  /* Other styles */
+}
+```
+
+This approach ensures that the div elements are laid out correctly regardless of the available horizontal space.  Alternative solutions could involve using grid layout or clearing floats.

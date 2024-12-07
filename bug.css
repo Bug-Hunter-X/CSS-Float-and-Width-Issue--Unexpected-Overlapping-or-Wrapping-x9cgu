@@ -1,0 +1,10 @@
+The following CSS code causes unexpected behavior in some browsers:
+
+```css
+div {
+  width: 50%;
+  float: left;
+}
+```
+
+The issue is that if the `div` elements do not have enough horizontal space to fit side-by-side, they might overlap or wrap in unexpected ways depending on the browser's rendering engine.
